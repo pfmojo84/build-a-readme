@@ -93,7 +93,7 @@ function writeToFile(fileName, data) {
 
 //init function. 'createPromptModule' prompt module for set of questions
 function init() {
-  inquirer.createPromptModule(questions).then((responses) =>{ //then() method to add user input to generateMarkdown function -- ensurs code will only run after user has input responses
+  inquirer.prompt(questions).then((responses) =>{ //then() method to add user input to generateMarkdown function -- ensurs code will only run after user has input responses
     writeToFile("./dist/README.md", generateMarkdown({...responses}));//... use spread operator to copy responses to markdown file
   })
 }
