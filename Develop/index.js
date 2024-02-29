@@ -39,19 +39,19 @@ const questions = [
     },
     {
       type: "input",
-      name: "depend",
+      name: "dependencies",
       message: "Please note any dependencies here:"
     },
     {
       type: "input",
-      name: "test",
+      name: "testing",
       message: "Please include any required testing here:"
     },
     {
-      type: "checkbox",
+      type: "list",
       name: "license",
       message: "Please select the license used for this project (if applicable):",
-      choices: ["MIT", "APACHE", "Boost", "GNU", "Mozilla"],
+      choices: ["MIT", "APACHE", "Boost", "GNU", "Mozilla", "None"],
     },
     {
       type: "input",
@@ -99,3 +99,4 @@ function init() {
 }
 //Function call to initialize app
 init();
+
