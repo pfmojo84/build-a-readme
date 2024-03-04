@@ -1,4 +1,4 @@
-# Build-A-ReadMe
+# README GENERATOR
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
@@ -17,12 +17,12 @@
   ---
 
   ## Installation
-  Run 'node index.js' to initate questionnaire
+  Run 'node index.js' to initiate questionnaire
 
   ---
 
   ## Usage
-  Follow along with my video guide for additional details
+  Follow along with this instructional video for additional details
 
   ---
 
@@ -39,7 +39,7 @@
   ---
 
   ## Technologies Used
-  Node.js, Node modules (inquirer, fs, path), GitHub, JSON, JavaScript
+  Node.js, node modules (inquirer, fs, path), GitHub, JSON, JavaScript
 
   ---
 
@@ -58,7 +58,7 @@
   John Porrazzo
 
   Email Contact:
-  myrealemail@realemails.com
+  myreallyrealemail@realemails.com
 
   GitHub User Name:
   pfmojo84
@@ -66,7 +66,7 @@
   ---
 
   ## Collaborators or Contributors
-  Robby Kurle (BCS Tutor)
+  N/A
 
   ---
 
